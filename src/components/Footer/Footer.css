@@ -1,0 +1,35 @@
+.footer-sub-container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 10px;
+  padding-bottom: 30px;
+}
+.each-link {
+  padding: 10px;
+  cursor: pointer;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-height: 200px;
+  padding-bottom: 30px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.mail {
+  writing-mode: vertical-lr; /* Vertical writing mode from left to right */
+  transform: rotate(180deg);
+  padding-bottom: 30px;
+}
+.light-text {
+  color: #000000; /* Light theme text color */
+}
+
+.dark-text {
+  color: #ffffff; /* Dark theme text color */
+}

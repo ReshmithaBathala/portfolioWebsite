@@ -1,0 +1,18 @@
+.theme-button {
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: transparent;
+}
+.dark-button-color {
+  height: 25px;
+  width: 25px;
+}
+.light-button-color {
+  color: yellow;
+  height: 25px;
+  width: 25px;
+}

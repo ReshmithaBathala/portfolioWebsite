@@ -1,0 +1,101 @@
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .content-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.hello-heading {
+  background-image: linear-gradient(to right, rgb(40, 200, 239), grey);
+  height: 40px;
+  width: 80px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.get-in-touch-button {
+  border: 2px solid #ffffff;
+  box-shadow: rgb(140, 131, 131) 1px 1px 1px 1px;
+  height: 40px;
+  width: 100px;
+  background-color: rgb(63, 61, 61);
+  color: #ffffff;
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-weight: 300;
+  flex-grow: 2;
+  font-size: 13px;
+  max-width: 150px;
+  cursor: pointer;
+}
+.download-cv-button {
+  border: 2px solid #ffffff;
+  box-shadow: rgb(140, 131, 131) 1px 1px 1px 1px;
+  height: 40px;
+  background-color: orange;
+  width: 100px;
+  color: #ffffff;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 13px;
+  flex-grow: 2;
+  cursor: pointer;
+  max-width: 150px;
+}
+.hi-emoji {
+  height: 40px;
+  width: 50px;
+  padding-top: 6px;
+  background-color: transparent;
+}
+.profile-container {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .profile-container {
+    display: block;
+    text-align: center;
+  }
+}
+.profile-container-1 {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .profile-container-1 {
+    display: none;
+    text-align: center;
+  }
+}
+.my-image {
+  height: 300px;
+  width: 300px;
+  border-radius: 110px;
+  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .my-image {
+    height: 350px;
+    width: 350px;
+  }
+}
