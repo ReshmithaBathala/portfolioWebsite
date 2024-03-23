@@ -1,7 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
-import MainContent from "./components/MainContent/MainContent";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
 import Home from "./components/Home/Home";
@@ -37,7 +36,7 @@ class App extends React.Component {
             <Route exact path="/projects" element={<Projects />} />
             <Route exact path="/contact" element={<Contact />} />
           </Routes>
-          <MainContent />
+
           <Footer toggleTheme={this.toggleTheme} theme={this.state.theme} />
         </div>
       </ThemeProvider>

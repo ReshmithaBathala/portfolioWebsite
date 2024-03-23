@@ -58,7 +58,7 @@ const Footer = ({ theme }) => {
           />
         </a>
       </div>
-      <p className="mail">reshmithabathala26@gmail.com</p>
+      <p className="mail">sinhaanishkumar@outlook.com</p>
     </footer>
   );
 };

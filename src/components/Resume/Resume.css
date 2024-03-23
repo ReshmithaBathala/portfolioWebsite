@@ -2,10 +2,16 @@
   height: 100vh;
   background-size: cover;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-grow: 2;
   padding: 20px;
   max-height: 100%;
+}
+@media screen and (min-width: 768px) {
+  .curve {
+    height: 500px;
+    width: 200px;
+  }
 }

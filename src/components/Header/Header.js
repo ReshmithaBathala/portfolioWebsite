@@ -9,7 +9,7 @@ const Header = ({ toggleTheme, theme }) => {
     <nav className="header-container">
       <div className="name-icon-container">
         <GiJusticeStar className="name-icon" />
-        RESHMITHA BATHALA
+        ANISH KUMAR SINHA
       </div>
       <ul className="header-comaponents-ul-container">
         <li>
