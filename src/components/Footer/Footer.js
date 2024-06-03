@@ -2,9 +2,9 @@ import React from "react";
 import { GrLinkedin } from "react-icons/gr";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
-import { FaTelegram } from "react-icons/fa";
-import { RiFacebookCircleLine } from "react-icons/ri";
-import { FaSnapchat } from "react-icons/fa";
+// import { FaTelegram } from "react-icons/fa";
+// import { RiFacebookCircleLine } from "react-icons/ri";
+// import { FaSnapchat } from "react-icons/fa";
 import "./Footer.css";
 
 const Footer = ({ theme }) => {
@@ -12,7 +12,7 @@ const Footer = ({ theme }) => {
     <footer className="footer-container">
       <div className="footer-sub-container-1">
         <a
-          href="https://www.linkedin.com/in/reshmithabathala?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          href="https://www.linkedin.com/in/reshmithabathala"
           target="_blank"
           rel="noreferrer"
         >
@@ -22,21 +22,25 @@ const Footer = ({ theme }) => {
             }`}
           />
         </a>
-        <a href="https://x.com/" target="_blank" rel="noreferrer">
+        <a href="https://x.com/ReshmithaB" target="_blank" rel="noreferrer">
           <FaXTwitter
             className={`each-link ${
               theme === "light" ? "light-text" : "dark-text"
             }`}
           />
         </a>
-        <a href="https://github.com/" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/ReshmithaBathala"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaGithub
             className={`each-link ${
               theme === "light" ? "light-text" : "dark-text"
             }`}
           />
         </a>
-        <a href="https://facebooks.com/" target="_blank" rel="noreferrer">
+        {/* <a href="https://facebooks.com/" target="_blank" rel="noreferrer">
           <RiFacebookCircleLine
             className={`each-link ${
               theme === "light" ? "light-text" : "dark-text"
@@ -56,9 +60,9 @@ const Footer = ({ theme }) => {
               theme === "light" ? "light-text" : "dark-text"
             }`}
           />
-        </a>
+        </a> */}
       </div>
-      <p className="mail">sinhaanishkumar@outlook.com</p>
+      <p className="mail">reshmithabathala26@gmail.com</p>
     </footer>
   );
 };

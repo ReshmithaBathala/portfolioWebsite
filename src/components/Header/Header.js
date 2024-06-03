@@ -8,8 +8,7 @@ const Header = ({ toggleTheme, theme }) => {
   return (
     <nav className="header-container">
       <div className="name-icon-container">
-        <GiJusticeStar className="name-icon" />
-        ANISH KUMAR SINHA
+        <GiJusticeStar className="name-icon" />B RESHMITHA
       </div>
       <ul className="header-comaponents-ul-container">
         <li>

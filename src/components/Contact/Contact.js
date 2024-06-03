@@ -6,16 +6,11 @@ const Contact = () => {
       <div>
         <h1>Contacts</h1>
         <p>
-          Address: Bihar, <br />
-          India Email: anish@example.com <br />
-          Phone: +91 1234567890
+          Address: Andhra Pradesh, <br />
+          India Email: reshmithabathala26@gmail.com <br />
+          Phone: +91 8309605299
         </p>
       </div>
-      <img
-        src="https://imagetolink.com/ib/ASbQyOgbkx.png"
-        alt="vector3"
-        className="curve"
-      />
     </div>
   );
 };

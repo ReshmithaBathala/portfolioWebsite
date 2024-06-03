@@ -6,22 +6,13 @@ const Skills = () => {
       <div>
         <h1>Skills</h1>
         <p>
-          UI/UX Design <br />
-          Front End Development
-          <br /> Web Design <br />
-          Mobile Design <br />
-          Branding
-          <br /> Print Design
-          <br /> 3D Floor Plan Design
-          <br /> HTML/CSS
-          <br /> Adobe Creative Suite
+          Frontend: HTML, CSS, Bootstrap, JavaScript, React.js
+          <br />
+          Backend: Python, Express, Node.js
+          <br /> Databases: SQLite
+          <br /> Other skills: Express(node), Flexbox
         </p>
       </div>
-      <img
-        src="https://imagetolink.com/ib/ASbQyOgbkx.png"
-        alt="vector3"
-        className="curve"
-      />
     </div>
   );
 };

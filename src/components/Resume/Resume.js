@@ -5,33 +5,50 @@ const Resume = () => {
   return (
     <div className="resume-container">
       <div>
-        <h1>Anish Kr. Sinha</h1>
+        <h1>B Reshmitha</h1>
         <p>
-          Address: Bihar,
-          <br /> India Email: anish@example.com
-          <br /> Phone: +91 1234567890
+          Address: Andhra Pradesh,
+          <br /> India Email: reshmithabathala26@gmail.com
         </p>
         <h1>Summary:</h1>
         <p>
-          Passionate UI/UX Designer & Front End Developer with a penchant for
-          crafting beautiful and functional user experiences. Driven and
-          permanently curious, with a relentless obsession for creating clean
-          and innovative designs for web and mobile platforms. Extensive
-          experience in web design spanning over three years, with a portfolio
-          encompassing small businesses, events, nonprofits, and more.
-          Proficient in branding, print design, and 3D floor plan creation.
-          Holds a Bachelor's degree in Computer Applications.
+          Hello! I’m Reshmitha Bathala, a Full-stack Developer based in Andhra
+          Pradesh, India. I'm pursuing a B.Tech in Computer Science Engineering
+          from Jawaharlal Nehru Technological University, Ananthapur, and an
+          industry-ready certification in Full-stack Development from Nxtwave.
+          With expertise in frontend and backend technologies, I have built
+          various web applications, including e-commerce platforms and job
+          search tools, demonstrating my skills in creating user-friendly and
+          secure solutions. I'm eager to contribute to impactful projects and
+          collaborate with innovative teams.
         </p>
         <h1>Education</h1>
-        <p>
-          Bachelor of Computer Applications SV University, Tirupati 2021-2025
-        </p>
+        <ul>
+          <li>
+            Jawaharlal Nehru Technological University,Ananthapur
+            <br />
+            <span> 2021- 2025</span>
+            <br />
+            <span>
+              BTech (Bachelor of Technology)_Computer Science Engineering (CSE)
+            </span>
+          </li>
+          <li>
+            Narayana junior college, Tirupati
+            <br />
+            <span> 2019- 2021</span>
+            <br />
+            <span>Intermediate_MPC (98.7%)</span>
+          </li>
+          <li>
+            Vijayavani Residential School(ICSE),, chowdepalli, chittoor district
+            <br />
+            <span> 2018- 2019</span>
+            <br />
+            <span>Secondary School Of Certificate (92.67%)</span>
+          </li>
+        </ul>
       </div>
-      <img
-        src="https://imagetolink.com/ib/ASbQyOgbkx.png"
-        alt="vector3"
-        className="curve"
-      />
     </div>
   );
 };
